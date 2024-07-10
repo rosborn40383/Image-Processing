@@ -56,8 +56,8 @@ def copy_images_with_descriptions(directory, output_directory):
                 print(f"Error processing {input_path}: {e}")
 
 if __name__ == "__main__":
-    directory = r'C:\Users\richard.osborn\64bit\image_proccessing\compressed'
-    output_directory = r'C:\Users\richard.osborn\64bit\image_proccessing\described'
+    directory = r'C:\Users\first.last\64bit\image_proccessing\compressed'
+    output_directory = r'C:\Users\first.last\64bit\image_proccessing\described'
     print(f"Starting copying process. Input directory: {directory}, Output directory: {output_directory}")
     copy_images_with_descriptions(directory, output_directory)
     print("Copying process completed.")
