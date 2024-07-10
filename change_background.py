@@ -19,7 +19,7 @@ def set_wallpaper(image_path, monitor_index):
     os.remove(temp_image_path)
 
 def main():
-    image_folder = r'C:\Users\richard.osborn\64bit\image_proccessing\described'
+    image_folder = r'C:\Users\first.last\64bit\image_proccessing\described'
     image_files = [os.path.join(image_folder, f) for f in os.listdir(image_folder) if f.lower().endswith('.png')]
 
     # Get the list of monitors
